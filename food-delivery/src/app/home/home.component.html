@@ -1,0 +1,138 @@
+		<!-- SECTION -->
+		<div class="section">
+		  <!-- container -->
+		  <div class="container">
+		    <!-- row -->
+		    <div class="row">
+		      <!-- shop -->
+		      <div class="col-md-4 col-xs-6">
+		        <div class="shop">
+		          <div class="shop-img">
+		            <img src="/assets/img/shop01.png" alt="">
+		          </div>
+		          <div class="shop-body">
+		            <h3>Laptops<br>Collection</h3>
+		            <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+		          </div>
+		        </div>
+		      </div>
+		      <!-- /shop -->
+
+		      <!-- shop -->
+		      <div class="col-md-4 col-xs-6">
+		        <div class="shop">
+		          <div class="shop-img">
+		            <img src="/assets/img/shop03.png" alt="">
+		          </div>
+		          <div class="shop-body">
+		            <h3>Accessories<br>Collection</h3>
+		            <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+		          </div>
+		        </div>
+		      </div>
+		      <!-- /shop -->
+
+		      <!-- shop -->
+		      <div class="col-md-4 col-xs-6">
+		        <div class="shop">
+		          <div class="shop-img">
+		            <img src="/assets/img/phone.png" alt="" width="150px" height="235px">
+		          </div>
+		          <div class="shop-body">
+		            <h3>Phones<br>Collection</h3>
+		            <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+		          </div>
+		        </div>
+		      </div>
+		      <!-- /shop -->
+		    </div>
+		    <!-- /row -->
+		  </div>
+		  <!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- SECTION -->
+		<div class="section">
+		  <!-- container -->
+		  <div class="container">
+		    <!-- row -->
+		    <div class="row">
+
+		      <!-- section title -->
+		      <div class="col-md-12">
+		        <div class="section-title">
+		          <h3 class="title">New Products</h3>
+
+		        </div>
+		      </div>
+		      <!-- /section title -->
+
+		      <!-- Products tab & slick -->
+
+           <!-- (click) = "selectProduct(p.id)"--> 
+          <!-- ТУТ СВЯЗКА С БЭКОМ -->
+		      <div class="col-md-12">
+		        <div class="row">
+              <div class="col-md-4 col-sm-6" *ngFor="let p of products">    
+                <div class="card my-2">
+                  <img [src]="p.image" alt="{{p.name}}" width="200px" height="350px" class="card-img-top" style="cursor: pointer;" >
+                  <div class="card-header">
+                    <div class="card-title">
+                      <a [title]="p.name + ' details'" [routerLink]="['/products', p.id]">
+                        {{ p.name.substr(0,30) | titlecase}} ...
+                      </a>
+                      <!-- <p>{{p.name | titlecase}}</p> -->
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    
+                    <h6 *ngIf="p.description">{{p.description.substr(0,25)}} ...</h6>
+                    <p class="lead">{{p.price | currency: '₸'}}</p>
+                  </div>
+
+                  <div class="row d-flex justify-content-center border-primary my-3">
+                    <div class="col-md-6">
+                      <button class="btn btn-outline-primary btn-sm btn-block">
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ТУТ СВЯЗКА С БЭКОМ -->
+
+		       
+
+		        </div>
+		      </div>
+		      <!-- Products tab & slick -->
+		    </div>
+		    <!-- /row -->
+		  </div>
+		  <!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- SECTION -->
+		<div class="section">
+		  <!-- container -->
+		  <div class="container">
+		    <!-- row -->
+		    <div class="row">
+
+		    </div>
+		    <!-- /row -->
+		  </div>
+		  <!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- SECTION -->
+		<div class="section">
+		  <!-- container -->
+		  <div class="container">
+		  </div>
+		  <!-- /container -->
+		</div>
+		<!-- /SECTION -->
