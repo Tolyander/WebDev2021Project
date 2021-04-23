@@ -25,7 +25,7 @@ export class CategoryComponent implements OnInit {
   }
   getProducts() {
     this.category = this.router.url.split("/")[this.router.url.split("/").length-1];
-    //console.log(this.cat_id);
+    // console.log(this.category);
     this.products = this.PRODUCTS.filter((x) => x.category === this.category);
   }
 

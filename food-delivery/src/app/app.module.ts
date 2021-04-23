@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CategoryComponent } from './category/category.component';
 import { FormsModule } from '@angular/forms';
 import { AddProductComponent } from './add-product/add-product.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { AddProductComponent } from './add-product/add-product.component';
     ThankyouComponent,
     CategoryComponent,
     AddProductComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

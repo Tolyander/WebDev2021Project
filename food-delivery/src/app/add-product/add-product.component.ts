@@ -3,7 +3,7 @@ import { NgModel } from '@angular/forms';
 import { Category, Product } from '../models';
 import { ProductComponent } from '../product/product.component';
 import { CATEGORIES, PRODUCTS } from '../products';
-import { ProductService } from '../service/product.service';
+import { ProductService } from '../_services/product.service';
 
 export class Phone {
   constructor(public title: string, 

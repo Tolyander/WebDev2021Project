@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgModel } from '@angular/forms';
 import { Category, Product } from '../models';
 import { CATEGORIES, PRODUCTS } from '../products';
-import { ProductService } from '../service/product.service';
+import { ProductService } from '../_services/product.service';
 
 @Component({
   selector: 'app-header',
