@@ -5,14 +5,15 @@ import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment';
 import { Observable } from 'rxjs';
 import { ProductModelServer, serverResponse } from '../models/product.model';
-import { products } from '../products';
+import { PRODUCTS } from '../products';
+import { Phone, Product } from '../models';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
 
-  products = products
+  products = PRODUCTS
 
   private SERVER_URL = environment.SERVER_URL;
   constructor(private http: HttpClient,

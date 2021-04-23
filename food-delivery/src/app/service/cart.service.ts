@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
-import { products } from '../products';
+import { PRODUCTS } from '../products';
 import { ProductService } from './product.service';
 
 @Injectable({
@@ -9,7 +9,7 @@ import { ProductService } from './product.service';
 })
 export class CartService {
   items = [];
-  products = products;
+  products = PRODUCTS;
 
   constructor(private http: HttpClient,
     private router: Router,

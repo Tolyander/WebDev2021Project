@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductService } from '../service/product.service';
 
-import { products } from '../products';
+import { CATEGORIES, PRODUCTS } from '../products';
+import { Category, Product } from '../models';
+import { NgModel } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +13,8 @@ import { products } from '../products';
 })
 export class HomeComponent implements OnInit {
 
-  products = products;
+  categories : Category[] = [];
+  products : Product[] = [];
 
   constructor(private productService: ProductService,
     private router: Router) { }
@@ -19,6 +22,8 @@ export class HomeComponent implements OnInit {
     
   // надо подключить бд
   ngOnInit(): void {
+    this.categories = CATEGORIES;
+    this.products = PRODUCTS;
     // this.getProducts();
   // }
   // getProducts() {
@@ -27,7 +32,11 @@ export class HomeComponent implements OnInit {
     
   // }
   }
-
+  addProduct(title:NgModel, price: NgModel, cat: NgModel) {
+    console.log(title);
+    console.log(price);
+    console.log(cat);
+  }
   
 }
 

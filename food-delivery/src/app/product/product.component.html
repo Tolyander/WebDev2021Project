@@ -8,7 +8,7 @@
 						<ul class="breadcrumb-tree">
 							<li><a href="#">Home</a></li>
 							<li><a href="#">All Categories</a></li>
-							<li><a href="#">{{products.category}}</a></li>
+							<li><a [routerLink]="['/category', products.category]">{{products.category}}</a></li>
 							<li class="active">{{ products.name }}</li>
 						</ul>
 					</div>
@@ -78,7 +78,7 @@
 
 							<ul class="product-links">
 								<li>Category:</li>
-								<li><a href="#">{{products.category}}</a></li>
+								<li><a [routerLink]="['/category', products.category]">{{products.category}}</a></li>
 							</ul>
 
 							<ul class="product-links">

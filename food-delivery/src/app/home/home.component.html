@@ -12,7 +12,7 @@
 		          </div>
 		          <div class="shop-body">
 		            <h3>Laptops<br>Collection</h3>
-		            <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+		            <a [routerLink]="['/category/laptops']" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 		          </div>
 		        </div>
 		      </div>
@@ -26,7 +26,7 @@
 		          </div>
 		          <div class="shop-body">
 		            <h3>Accessories<br>Collection</h3>
-		            <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+		            <a [routerLink]="['/category/accessories']" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 		          </div>
 		        </div>
 		      </div>
@@ -40,7 +40,7 @@
 		          </div>
 		          <div class="shop-body">
 		            <h3>Phones<br>Collection</h3>
-		            <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+		            <a [routerLink]="['/category/phones']" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 		          </div>
 		        </div>
 		      </div>
@@ -79,7 +79,7 @@
                   <img [src]="p.image" alt="{{p.name}}" width="200px" height="350px" class="card-img-top" style="cursor: pointer;" >
                   <div class="card-header">
                     <div class="card-title">
-                      <a [title]="p.name + ' details'" [routerLink]="['/products', p.id]">
+                      <a [title]="p.name + ' details'" [routerLink]="['/category', p.category, p.id]">
                         {{ p.name.substr(0,30) | titlecase}} ...
                       </a>
                       <!-- <p>{{p.name | titlecase}}</p> -->
@@ -88,7 +88,7 @@
                   <div class="card-body">
                     
                     <h6 *ngIf="p.description">{{p.description.substr(0,25)}} ...</h6>
-                    <p class="lead">{{p.price | currency: '₸'}}</p>
+                    <p class="lead">{{p.price | currency: 'USD'}}</p>
                   </div>
 
                   <div class="row d-flex justify-content-center border-primary my-3">
