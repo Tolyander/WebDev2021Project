@@ -271,59 +271,59 @@ export const PRODUCTS = [
       url: 'https://www.amazon.com/Samsung-Galaxy-Unlocked-Midnight-Renewed/dp/B07VYTLC6Q/ref=lp_7072561011_1_10'
     },
     {
-      id: 18,
-      name: 'Wireless Keyboard Mouse Combo 2.4G Ultra-Thin Sleek Design Full Size Wireless Keyboard and Mouse Set High Precision 1600 DPI Wireless Mouse for MAC Windows,Smart TV',
-      category: "accesories",
-      price: 37.00,
+      id: 20,
+      name: 'Logitech BRIO Ultra HD Webcam for Video Conferencing, Recording, and Streaming - Black',
+      category: "accessories",
+      price: 184.00,
       rating: '4.3 out of 5',
       description: 'Fully Unlocked: Fully unlocked and compatible with any carrier of choice (e.g. AT&T, T-Mobile, Sprint, Verizon, US-Cellular, Cricket, Metro, etc.), both domestically and internationally.\n' +
         'The device does not come with headphones or a SIM card. It does include a charger and charging cable that may be generic.\n' +
         'Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm\'s length.\n' +
         'Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.\n' +
         'Tested for battery health and guaranteed to have a minimum battery capacity of 80%.',
-      image: 'https://images-na.ssl-images-amazon.com/images/I/81F8j9jmSFL._AC_SL1500_.jpg',
+      image: 'https://images-na.ssl-images-amazon.com/images/I/615PHGxiucL._AC_SL1500_.jpg',
       url: 'https://www.amazon.com/Samsung-Galaxy-Unlocked-Midnight-Renewed/dp/B07VYTLC6Q/ref=lp_7072561011_1_10'
     },
     {
-      id: 18,
-      name: 'Wireless Keyboard Mouse Combo 2.4G Ultra-Thin Sleek Design Full Size Wireless Keyboard and Mouse Set High Precision 1600 DPI Wireless Mouse for MAC Windows,Smart TV',
-      category: "accesories",
-      price: 37.00,
+      id: 21,
+      name: 'BLUE Microphones Yeti X USB Microphone Bundle with Knox Gear Pop Filter and 4-Port USB 3.0 Hub',
+      category: "accessories",
+      price: 199.00,
       rating: '4.3 out of 5',
       description: 'Fully Unlocked: Fully unlocked and compatible with any carrier of choice (e.g. AT&T, T-Mobile, Sprint, Verizon, US-Cellular, Cricket, Metro, etc.), both domestically and internationally.\n' +
         'The device does not come with headphones or a SIM card. It does include a charger and charging cable that may be generic.\n' +
         'Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm\'s length.\n' +
         'Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.\n' +
         'Tested for battery health and guaranteed to have a minimum battery capacity of 80%.',
-      image: 'https://images-na.ssl-images-amazon.com/images/I/81F8j9jmSFL._AC_SL1500_.jpg',
+      image: 'https://images-na.ssl-images-amazon.com/images/I/71CP2P-smwL._AC_SL1500_.jpg',
       url: 'https://www.amazon.com/Samsung-Galaxy-Unlocked-Midnight-Renewed/dp/B07VYTLC6Q/ref=lp_7072561011_1_10'
     },
     {
-      id: 18,
-      name: 'Wireless Keyboard Mouse Combo 2.4G Ultra-Thin Sleek Design Full Size Wireless Keyboard and Mouse Set High Precision 1600 DPI Wireless Mouse for MAC Windows,Smart TV',
-      category: "accesories",
-      price: 37.00,
+      id: 22,
+      name: 'Blue Yeti USB Mic for Recording & Streaming on PC and Mac, 3 Condenser Capsules, 4 Pickup Patterns, Headphone Output and Volume Control, Mic Gain Control, Adjustable Stand, Plug & Play – Blackout',
+      category: "accessories",
+      price: 129.00,
       rating: '4.3 out of 5',
       description: 'Fully Unlocked: Fully unlocked and compatible with any carrier of choice (e.g. AT&T, T-Mobile, Sprint, Verizon, US-Cellular, Cricket, Metro, etc.), both domestically and internationally.\n' +
         'The device does not come with headphones or a SIM card. It does include a charger and charging cable that may be generic.\n' +
         'Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm\'s length.\n' +
         'Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.\n' +
         'Tested for battery health and guaranteed to have a minimum battery capacity of 80%.',
-      image: 'https://images-na.ssl-images-amazon.com/images/I/81F8j9jmSFL._AC_SL1500_.jpg',
+      image: 'https://images-na.ssl-images-amazon.com/images/I/61Ly9zgVyIL._AC_SL1500_.jpg',
       url: 'https://www.amazon.com/Samsung-Galaxy-Unlocked-Midnight-Renewed/dp/B07VYTLC6Q/ref=lp_7072561011_1_10'
     },
     {
-      id: 18,
-      name: 'Wireless Keyboard Mouse Combo 2.4G Ultra-Thin Sleek Design Full Size Wireless Keyboard and Mouse Set High Precision 1600 DPI Wireless Mouse for MAC Windows,Smart TV',
-      category: "accesories",
-      price: 37.00,
+      id: 23,
+      name: 'SAMSUNG ELECTRONICS EVO Select 256GB MicroSDXC UHS-I U3 100MB/s Full HD & 4K UHD Memory Card with Adapter (MB-ME256HA)',
+      category: "accessories",
+      price: 33.00,
       rating: '4.3 out of 5',
       description: 'Fully Unlocked: Fully unlocked and compatible with any carrier of choice (e.g. AT&T, T-Mobile, Sprint, Verizon, US-Cellular, Cricket, Metro, etc.), both domestically and internationally.\n' +
         'The device does not come with headphones or a SIM card. It does include a charger and charging cable that may be generic.\n' +
         'Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm\'s length.\n' +
         'Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.\n' +
         'Tested for battery health and guaranteed to have a minimum battery capacity of 80%.',
-      image: 'https://images-na.ssl-images-amazon.com/images/I/81F8j9jmSFL._AC_SL1500_.jpg',
+      image: 'https://images-na.ssl-images-amazon.com/images/I/61wKZ4noXaL._AC_SL1024_.jpg',
       url: 'https://www.amazon.com/Samsung-Galaxy-Unlocked-Midnight-Renewed/dp/B07VYTLC6Q/ref=lp_7072561011_1_10'
     },
   

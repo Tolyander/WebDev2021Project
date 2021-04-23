@@ -18,7 +18,7 @@
             <div class="card-body">
 
               <h6 *ngIf="p.description">{{p.description.substr(0,25)}} ...</h6>
-              <p class="lead">{{p.price | currency: '₸'}}</p>
+              <p class="lead">{{p.price | currency: 'USD'}}</p>
             </div>
 
             <div class="row d-flex justify-content-center border-primary my-3">
