@@ -18,3 +18,7 @@ export interface Phone {
     price: number;
     company: string;
 }
+
+export interface AuthToken {
+    token: string;
+}

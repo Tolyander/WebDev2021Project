@@ -24,6 +24,7 @@ export class ProductComponent implements OnInit {
 
   ngOnInit(): void {
     const routeParams = this.route.snapshot.paramMap;
+    // console.log(routeParams);
     const productIdFromRoute = Number(routeParams.get('productId'));
     this.products = PRODUCTS.find(product => product.id === productIdFromRoute);
   }
