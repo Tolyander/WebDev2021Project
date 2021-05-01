@@ -3,15 +3,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { AddProductComponent } from './add-product/add-product.component';
 import { CartComponent } from './cart/cart.component';
 import { CategoryComponent } from './category/category.component';
-import { CheckoutComponent } from './checkout/checkout.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ProductComponent } from './product/product.component';
-import { ThankyouComponent } from './thankyou/thankyou.component';
+
 
 const routes: Routes = [
   {
-    path: '', component: HomeComponent
+    path: '', component: LoginComponent
+  },
+  {
+    path: 'home', component: HomeComponent
   },
   {
     path: 'category/:categoryName', component: CategoryComponent
@@ -27,12 +29,6 @@ const routes: Routes = [
   },
   {
     path: 'cart', component: CartComponent
-  },
-  {
-    path: 'checkout', component: CheckoutComponent
-  },
-  {
-    path: 'thankyou', component: ThankyouComponent
   }
 ];
 

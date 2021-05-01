@@ -43,7 +43,8 @@
     <div *ngIf="logged">
 
       <h2>You are logged in!</h2>
-      <button class="add-to-cart-btn" [routerLink]="['/']" routerLinkActive="router-link-active">Back To Home</button>
+      <button class="add-to-cart-btn" routerLink="home" routerLinkActive="router-link-active">Back To Home</button>
+      <button class="btn btn-primary" (click)="logout()">Log Out</button>
     </div>
   </div>
 </div>

@@ -6,7 +6,7 @@ import { environment } from 'src/environments/environment';
 import { Observable } from 'rxjs';
 import { ProductModelServer, serverResponse } from '../models/product.model';
 import { PRODUCTS } from '../products';
-import { AuthToken, Phone, Product } from '../models';
+import { AuthToken, Phone, Category, Product} from '../models';
 
 @Injectable({
   providedIn: 'root'

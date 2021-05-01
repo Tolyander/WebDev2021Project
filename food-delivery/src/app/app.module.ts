@@ -8,8 +8,6 @@ import { FooterComponent } from './footer/footer.component';
 import { CartComponent } from './cart/cart.component';
 import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
-import { CheckoutComponent } from './checkout/checkout.component';
-import { ThankyouComponent } from './thankyou/thankyou.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CategoryComponent } from './category/category.component';
 import { FormsModule } from '@angular/forms';
@@ -25,11 +23,9 @@ import { AuthInterceptor } from './AuthInterceptor';
     CartComponent,
     HomeComponent,
     ProductComponent,
-    CheckoutComponent,
-    ThankyouComponent,
     CategoryComponent,
     AddProductComponent,
-    LoginComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

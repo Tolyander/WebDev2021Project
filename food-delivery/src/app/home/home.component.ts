@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductService } from '../_services/product.service';
-
-import { CATEGORIES, PRODUCTS } from '../products';
-import { Category, Product } from '../models';
+import { CategoryService } from '../category.service';
+import { Category, Product} from '../models';
 import { NgModel } from '@angular/forms';
 
 @Component({
@@ -16,22 +15,19 @@ export class HomeComponent implements OnInit {
   categories : Category[] = [];
   products : Product[] = [];
 
-  constructor(private productService: ProductService,
+  constructor(private categoryService: CategoryService,
     private router: Router) { }
 
-    
-  // надо подключить бд
   ngOnInit(): void {
-    this.categories = CATEGORIES;
-    this.products = PRODUCTS;
-    // this.getProducts();
-  // }
-  // getProducts() {
-  //   this.productService.getAllProducts()
-  //     .subscribe(products => this.products = products);
+    this.getCategories();
     
-  // }
   }
+  getCategories() {
+    this.categoryService.getCategories().subscribe((data) => {
+      this.products = data;
+    });
+  }
+
   addProduct(title:NgModel, price: NgModel, cat: NgModel) {
     console.log(title);
     console.log(price);
@@ -39,12 +35,3 @@ export class HomeComponent implements OnInit {
   }
   
 }
-
-// this.productService.getAllProducts().subscribe((prods: {count: Number, products: any[]}) => {
-//   this.products = prods.products;
-//   console.log(this.products);
-// }); 
-
-// selectProduct(id: Number) {
-//   this.router.navigate(['/product', id]).then();
-// }
